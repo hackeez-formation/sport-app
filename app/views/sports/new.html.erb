@@ -1,0 +1,10 @@
+<h1> Je suis dans la new! </h1>
+
+<%= form_for @sport do |f| %>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+
+    <%= f.submit %>
+  </div>
+<% end %>
